@@ -1,0 +1,58 @@
+.Menu-page{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.Kitisuru{
+    
+    width: 50%;
+    height: 100%;
+    background-image:url(Kilimani.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Kilimani{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-image:url(Kitisuru.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    position: absolute;
+    top: 60px;       
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+nav{
+display: flex;
+flex-direction: row;
+background-color: black;
+color: white;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-radius: 30px;
+align-self: baseline;
+justify-content: space-between;
+width: 800px;
+margin-left: 600px;
+height : 20px;
+padding: 20px;
+position: absolute;
+bottom: 70px;
+text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+
+}

@@ -1,0 +1,59 @@
+
+
+body{
+    background-image: url(contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    
+
+}
+nav{
+display: flex;
+flex-direction: row;
+background-color: black;
+color: white;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-radius: 30px;
+align-self: baseline;
+justify-content: space-between;
+width: 800px;
+margin-left: 600px;
+height : 20px;
+padding: 20px;
+position: absolute;
+bottom: 70px;
+text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+
+}
+.container{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: row;
+    height:200px;
+    width:200px;
+}
+.kili{
+    height: 50px;
+    weight:50px;
+    border-color: white;
+    color: white;
+    border: 20px;
+    padding: 20px;
+    font-size: medium;
+}
+.kiti{
+    height: 50px;
+    weight:50px;
+    border-color: white;
+    color: white;
+}
